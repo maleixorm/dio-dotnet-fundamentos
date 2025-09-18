@@ -10,4 +10,13 @@ int a = 5;
 int b = 10;
 int c = a + b;
 
+c += 5;
+
+// Casting
+
+int d = Convert.ToInt32("30");
+int e = int.Parse("12");
+
 Console.WriteLine(c);
+Console.WriteLine(d);
+Console.WriteLine(e);
