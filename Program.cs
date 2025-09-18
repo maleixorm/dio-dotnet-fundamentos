@@ -17,6 +17,10 @@ c += 5;
 int d = Convert.ToInt32("30");
 int e = int.Parse("12");
 
+int inteiro = 5;
+string f = inteiro.ToString();
+
 Console.WriteLine(c);
 Console.WriteLine(d);
 Console.WriteLine(e);
+Console.WriteLine(f);
