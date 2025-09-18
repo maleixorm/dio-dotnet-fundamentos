@@ -20,7 +20,13 @@ int e = int.Parse("12");
 int inteiro = 5;
 string f = inteiro.ToString();
 
+// Cast implícito
+
+int g = 5;
+double h = g;
+
 Console.WriteLine(c);
 Console.WriteLine(d);
 Console.WriteLine(e);
 Console.WriteLine(f);
+Console.WriteLine(h);
