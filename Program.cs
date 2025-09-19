@@ -6,3 +6,4 @@ calc.Somar(10, 30);
 calc.Subtrair(30, 10);
 calc.Multiplicar(15, 30);
 calc.Dividir(20, 2);
+calc.Potencia(2, 5);
