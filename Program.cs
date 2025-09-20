@@ -1,14 +1,8 @@
 using dio_dotnet_fundamentos.Models;
 
-Calculadora calc = new Calculadora();
+int numero = 10;
 
-calc.Somar(10, 30);
-calc.Subtrair(30, 10);
-calc.Multiplicar(15, 30);
-calc.Dividir(20, 2);
-calc.Potencia(2, 5);
-
-calc.Seno(30);
-calc.Coseno(30);
-calc.Tangente(30);
-calc.RaizQuadrada(16);
+for (int i = 1; i <= numero; i++)
+{
+    Console.WriteLine($"{numero} x {i} = {numero * i}");
+}
