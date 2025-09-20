@@ -1,8 +1,10 @@
 using dio_dotnet_fundamentos.Models;
 
-int numero = 10;
+int numero = 7;
+int contador = 1;
 
-for (int i = 1; i <= numero; i++)
+while (contador <= 10)
 {
-    Console.WriteLine($"{numero} x {i} = {numero * i}");
+    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+    contador++;
 }
